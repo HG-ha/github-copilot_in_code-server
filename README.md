@@ -32,7 +32,6 @@ curl -fsSL https://ghproxy.cn/https://github.com/HG-ha/github-copilot_in_code-se
    ```
 
 ## 可能出现的问题
-1. 由于平台支持原因，可能需要忽略证书
-   ```bash
-   code-server --ignore-certificates
-   ```
+1. 无法完整显示github copilot
+2. 每次打开新文件都需要手动开启一次copilot
+3. 顶部没有github copilot图标
