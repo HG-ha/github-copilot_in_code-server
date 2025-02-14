@@ -1,7 +1,9 @@
 # GitHub Copilot in code-server
 
-这个项目提供了一个一键式安装脚本来设置代码服务器中的GitHub Copilot。按照以下步骤在代码服务器环境中安装和配置GitHub
-Copilot：
+这个项目提供了一个一键式安装脚本来设置代码服务器中的GitHub Copilot。按照以下步骤在代码服务器环境中安装和配置GitHub Copilot
+
+### 已经过测试的功能
+1. 代码补全
 
 ## 一键安装
 ```bash
