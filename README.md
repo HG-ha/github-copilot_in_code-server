@@ -3,7 +3,12 @@
 这个项目提供了一个一键式安装脚本来设置代码服务器中的GitHub Copilot。按照以下步骤在代码服务器环境中安装和配置GitHub
 Copilot：
 
-## 首先确保您安装了code-server
+## 一键安装
+```bash
+curl -fsSL https://ghproxy.cn/https://github.com/HG-ha/github-copilot_in_code-server/blob/main/setup_github_copilot.sh | sh
+```
+
+##  手动安装
 
 1. 安装code-server
    1. 在Termux中安装
