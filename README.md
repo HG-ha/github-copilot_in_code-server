@@ -30,3 +30,9 @@ curl -fsSL https://ghproxy.cn/https://github.com/HG-ha/github-copilot_in_code-se
    curl -L -o copilot-1.271.0.vsix https://ghproxy.cn/https://github.com/HG-ha/github-copilot_in_code-server/raw/main/copilot-1.271.0.vsix
    code-server --install-extension copilot-1.271.0.vsix
    ```
+
+## 可能出现的问题
+1. 由于平台支持原因，可能需要忽略证书
+   ```bash
+   code-server --ignore-certificates
+   ```
