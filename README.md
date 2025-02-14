@@ -12,7 +12,7 @@ Copilot：
       pkg install tur-repo
       pkg install code-server
       ```
-   2. 通过proot-distro环境安装（适用于其他 Linux）
+   2. 通过proot-distro环境安装
       ```bash
       pkg install proot-distro
       proot-distro install debian
