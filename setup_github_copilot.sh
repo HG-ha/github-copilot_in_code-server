@@ -12,7 +12,7 @@ if ! command -v code-server &> /dev/null
 then
     echo "code-server not found, installing..."
     if [ -n "$TERMUX_VERSION" ]; then
-        pkg install code-server || { echo "Failed to install code-server"; exit 1; }
+        pkg install -y code-server || { echo "Failed to install code-server"; exit 1; }
     else
         curl -fsSL https://code-server.dev/install.sh | sh || { echo "Failed to install code-server"; exit 1; }
     fi
